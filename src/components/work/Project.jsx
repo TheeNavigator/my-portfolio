@@ -14,6 +14,7 @@ const Project = () => {
           return (
             <div key={index} className="work-item">
               <img src={work.w_image} alt="" />
+              <p className="work-name">{work.w_name}</p>
               <div className="overlay">
                 <div className="buttons">
                   <button className="view-live-btn" title="Live Site">
