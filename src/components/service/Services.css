@@ -63,6 +63,7 @@
     grid-template-columns: 1.2fr 1.4fr 1.4fr;
     gap: 70px;
     margin-bottom: 60px;
+
 }
 
 .services-readmore{
@@ -72,6 +73,13 @@
     margin-top: 20px;
 }
 
+.services-readmore p{
+    font-size: 20px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 @media(max-width: 768px){
     .services{

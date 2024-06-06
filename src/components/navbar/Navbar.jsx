@@ -80,7 +80,7 @@ function Navbar() {
           </li>
         </AnchorLink>
       </ul>
-      <div onClick={navToggle} className={icon}>
+      <div onClick={navToggle} className={icon} >
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>

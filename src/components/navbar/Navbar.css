@@ -74,6 +74,11 @@ a {
 .anchor-link {
   text-decoration: none;
   color: white;
+  transition: 0.2s ease-in;
+}
+
+.anchor-link:hover{
+  color:#da7c25;
 }
 
 @media screen and (max-width: 768px) {
