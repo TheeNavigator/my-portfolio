@@ -72,17 +72,19 @@ const Project = () => {
                         seamless user experience while maintaining high
                         standards of security and data privacy.
                       </div>
-                      <div className="tech-stack">
+
+                      Project Coming Soon Stay Tunned!!!!
+                      {/* <div className="tech-stack">
                         <i className="bx bxl-html5" title="html"></i>
                         <i className="bx bxl-css3" title="css"></i>
                         <i className="bx bxl-postgresql" title="postgresql"></i>
                         <i className="bx bxl-spring-boot" title="springboot"></i>
-                      </div>
+                      </div> */}
                       <div className="view">
-                        <a href="" title="View On Live Server">
+                        <a title="View On Live Server">
                           <i className="bi bi-pc-display"></i>
                         </a>
-                        <a href="" title="View On Github">
+                        <a  title="View On Github">
                           <i className="bi bi-github"></i>
                         </a>
                       </div>
@@ -103,17 +105,19 @@ const Project = () => {
                         engaging and reliable messaging experience for users
                         across the globe.
                       </div>
-                      <div className="tech-stack">
+                      {/* <div className="tech-stack">
                         <i class="bx bxl-html5" title="html"></i>
                         <i class="bx bxl-css3" title="css"></i>
                         <i class="bx bxl-postgresql" title="postgresql"></i>
                         <i class="bx bxl-spring-boot" title="springboot"></i>
-                      </div>
+                      </div> */}
+
+                      Project Coming Soon Stay Tunned!!!!
                       <div className="view">
-                        <a href="" title="View On Live Server">
+                        <a title="View On Live Server">
                           <i class="bi bi-pc-display"></i>
                         </a>
-                        <a href="" title="View On Github">
+                        <a title="View On Github">
                           <i className="bi bi-github"></i>
                         </a>
                       </div>
@@ -134,17 +138,18 @@ const Project = () => {
                         confections that cater to various tastes and
                         preferences.
                       </div>
-                      <div className="tech-stack">
+                      Project Coming Soon Stay Tunned!!!!
+                      {/* <div className="tech-stack">
                         <i class="bx bxl-html5" title="html"></i>
                         <i class="bx bxl-css3" title="css"></i>
                         <i class="bx bxl-postgresql" title="postgresql"></i>
                         <i class="bx bxl-spring-boot" title="springboot"></i>
-                      </div>
+                      </div> */}
                       <div className="view">
-                        <a href="" title="View On Live Server">
+                        <a title="View On Live Server">
                           <i class="bi bi-pc-display"></i>
                         </a>
-                        <a href="" title="View On Github">
+                        <a title="View On Github">
                           <i className="bi bi-github"></i>
                         </a>
                       </div>
@@ -165,17 +170,18 @@ const Project = () => {
                         weather conditions, WeatherSense provides accurate and
                         detailed weather data at your fingertips.
                       </div>
-                      <div className="tech-stack">
+                      Project Coming Soon Stay Tunned!!!!
+                      {/* <div className="tech-stack">
                         <i class="bx bxl-html5" title="html"></i>
                         <i class="bx bxl-css3" title="css"></i>
                         <i class="bx bxl-postgresql" title="postgresql"></i>
                         <i class="bx bxl-spring-boot" title="springboot"></i>
-                      </div>
+                      </div> */}
                       <div className="view">
-                        <a href="" title="View On Live Server">
+                        <a title="View On Live Server">
                           <i class="bi bi-pc-display"></i>
                         </a>
-                        <a href="" title="View On Github">
+                        <a title="View On Github">
                           <i className="bi bi-github"></i>
                         </a>
                       </div>
@@ -196,17 +202,18 @@ const Project = () => {
                         coffee enthusiasts, offering a delightful range of
                         specialty coffees and a relaxing atmosphere.
                       </div>
-                      <div className="tech-stack">
+                      {/* <div className="tech-stack">
                         <i class="bx bxl-html5" title="html"></i>
                         <i class="bx bxl-css3" title="css"></i>
                         <i class="bx bxl-postgresql" title="postgresql"></i>
                         <i class="bx bxl-spring-boot" title="springboot"></i>
-                      </div>
+                      </div> */}
+                      Project Coming Soon Stay Tunned!!!!
                       <div className="view">
-                        <a href="" title="View On Live Server">
+                        <a title="View On Live Server">
                           <i class="bi bi-pc-display"></i>
                         </a>
-                        <a href="" title="View On Github">
+                        <a title="View On Github">
                           <i className="bi bi-github"></i>
                         </a>
                       </div>
@@ -227,17 +234,18 @@ const Project = () => {
                         streamlines the process with intuitive features and
                         functionalities.
                       </div>
-                      <div className="tech-stack">
+                      Project Coming Soon Stay Tunned!!!!
+                      {/* <div className="tech-stack">
                         <i class="bx bxl-html5" title="html"></i>
                         <i class="bx bxl-css3" title="css"></i>
                         <i class="bx bxl-postgresql" title="postgresql"></i>
                         <i class="bx bxl-spring-boot" title="springboot"></i>
-                      </div>
+                      </div> */}
                       <div className="view">
-                        <a href="" title="View On Live Server">
+                        <a  title="View On Live Server">
                           <i class="bi bi-pc-display"></i>
                         </a>
-                        <a href="" title="View On Github">
+                        <a  title="View On Github">
                           <i className="bi bi-github"></i>
                         </a>
                       </div>
