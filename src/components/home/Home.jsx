@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import NavLinks from "../navbar-links/NavLinks";
-import './Home.css';
-
+import "./Home.css";
 
 function Home() {
   const [active, setActive] = useState(false);
@@ -37,15 +36,20 @@ function Home() {
                 </p>
 
                 {/* <div className="home-connect"> */}
-                  <a href="">
-                    <i className="bi bi-github icon"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-linkedin icon"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-whatsapp icon"></i>
-                  </a>
+                <a href="https://github.com/TheeNavigator" target="_blank">
+                  <i className="bi bi-github icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sthembisomametja/" target="_blank">
+                  <i className="bi bi-linkedin icon"></i>
+                </a>
+                <a
+                  href="https://wa.me/+27711173432"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="bi bi-whatsapp icon"></i>
+                </a>
+
                 {/* </div> */}
               </div>
             </div>
@@ -56,7 +60,7 @@ function Home() {
         <div className="shadow two"></div>
       </div>
 
-      <NavLinks/>
+      <NavLinks />
     </div>
   );
 }
