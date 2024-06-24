@@ -1,25 +1,6 @@
-.contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin: 40px 80px;
-}
-
-.contact-title{
-    position: relative;
-    margin-top: 50px;
-    margin-bottom: -20px;
-}
-
-.contact-title h1{
-    padding: 0px 30px;
-    font-weight: 600px;
-    font-size: 40px;
-}
 
 .contact-section{
+    margin-top: 6rem;
     display: flex;
     gap: 150px;
 }
@@ -115,78 +96,58 @@
     transition: 0.3s;
 }
 
-@media (max-width: 768px) {
-    .contact{
-        gap: 50px;
-        margin: 50px 70px;
-        align-items: start;
-    }
-
-    .contact-title h1{
-        padding: 0;
-        font-size: 35px;
-    }
-
+@media (max-width: 1024px){
     .contact-section{
-        flex-direction: column;
-
+        width: 90%;
+        margin-left: 2rem;
     }
+}
+
+@media (max-width: 768px){
+    .contact-section{
+        margin-left: 4rem;
+    }
+
+    .contact-left{
+        display: none;
+    } 
+}
+
+@media (max-width: 425px){
 
     .contact-right{
-        margin-top: -80px;
-    }
-
-    .contact-left h1{
-        font-size: 30px;
-    }
-
-    .contact-left p{
-        font-size: 22px;
-    }
-
-    .contact-right label{
-        font-size: 25px;
+        margin-left: -7rem;
     }
 
     .contact-right input{
-        width: 100%;
-        font-size: 18px;
+        width: 22rem;
     }
 
     .contact-right textarea{
         width: 100%;
-        font-size: 18px;
     }
-
-    .contact-submit{
-        font-size: 20px;
-        padding: 10px 20px;
-    }
+    
 }
 
-@media (max-width: 400px){
-    .contact-title h1{
-        font-size: 30px;
-    }
+@media (max-width: 375px) {
 
-    .contact-left p{
-        font-size: 18px;
-    }
-
-    .contact-detail p{
-        font-size: 15px;
-    }
-
-    .contact-right label{
-        font-size: 18px;
+    .contact-right{
+        margin-left: -4rem;
     }
 
     .contact-right input{
-        font-size: 16px;
-    }
-
-    .contact-submit{
-        font-size: 16px;
-        padding: 5px 15px;
+        width: 22rem;
     }
 }
+
+@media (max-width: 320px) {
+
+    .contact-right{
+        margin-left: -3rem;
+    }
+
+    .contact-right input{
+        width: 18rem;
+    }
+}
+

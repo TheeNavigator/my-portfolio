@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import NavLinks from "../navbar-links/NavLinks";
 import "./Contact.css";
 
 const Contact = () => {
+
+  const [active, setActive] = useState(false);
+
+  const toggleMenu = () => {
+    setActive(!active);
+  };
 
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -27,10 +34,25 @@ const Contact = () => {
       };
 
   return (
-    <div className="contact" id='contact'>
-      <div className="contact-title">
-        <h1>Get in touch</h1>
+    <div className={`container ${active ? "active" : ""}`} id='contact'>
+     
+     <div className="navbar">
+        <div className="menu">
+          <h3 className="logo">
+            Sthembiso<span>Mametja</span>
+          </h3>
+          <div className="hamburger-menu" onClick={toggleMenu}>
+            <div className="bar"></div>
+          </div>
+        </div>
       </div>
+
+
+      <div className="main-container">
+        <div className="main">
+          <section>
+            <div className="overlay">
+              <div className="inner-service">
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let's talk</h1>
@@ -75,6 +97,16 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      </div>
+      </div>
+      </section>
+      </div>
+      <div className="shadow one"></div>
+      <div className="shadow two"></div>
+      </div>
+
+      <NavLinks/>
+
     </div>
   );
 };

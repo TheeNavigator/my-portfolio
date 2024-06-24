@@ -1,83 +1,59 @@
-.about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin: 40px 80px;
-}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #485461;
+    background-image: linear-gradient(135deg, #485461 0%, #28313b 74%);
+    overflow-x: hidden;
+    transform-style: preserve-3d;
+  }
 
-.about-title{
-    margin-top: 50px;
+  section {
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    background: url("../../assets/bg.jpg") no-repeat top center / cover;
     position: relative;
-}
+  
+  }
 
-.about-title h1{
-    padding: 0px 30px;
-    font-weight: 600px;
-    font-size: 40px;
-}
+  .about-title{
+    font-size: 2.7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+  }
 
-.about-section{
-    display: flex;
-    gap: 80px;
-}
-
-.about-left img{
-    width: 300px;
-    height: 350px;
-}
-
-.about-right{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.about-para{
-    gap: 20px;
-    font-size: 20px;
-    font-weight: 500;
-
-}
-
-@media(max-width: 768px) {
-    .about{
-        gap: 80px;
-        margin: 20px 40px;
-        align-items: start;
+  /* media screens */
+  @media (max-width: 1024px) {
+    .inner p{
+      margin-top: 3rem;
+      font-size: 1rem;
     }
+  }
 
-    .about-title h1{
-        font-size:  35px;
-        padding: 0;
+  @media (max-width: 425px) {
+    .inner p{
+      margin-top: 3rem;
+      font-size: 0.85rem;
     }
+  }
 
-    .about-left {
-        display: none;
+  @media (max-width: 375px) {
+    .inner p{
+      margin-top: 3rem;
+      font-size: 0.75rem;
     }
+  }
 
-    .about-section{
-        flex-direction: column;
+  @media (max-width: 320px) {
+    .inner p{
+      margin-top: 3rem;
+      font-size: 0.73rem;
     }
+  }
 
-    .about-para{
-        margin-top: -20px;
-        font-size: 15px;
-        line-height: 25px;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-}
 
-@media(max-width: 400px){
-    .about-title h1{
-        font-size: 30px;
-    }
+ 
 
-    .about-para{
-        width: fit-content;
-        justify-content: center;
-        align-items: center;
-    }
-}
+ 
+  
+  
